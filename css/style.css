@@ -181,3 +181,53 @@ section {
 #arrow-down:focus {
     color: #f4c613;    
 }
+
+/*========================================
+                Content Boxes
+=========================================*/
+
+.content-box-lg {
+    padding: 120px 0;
+}
+
+/*========================================
+                vertical Headings
+=========================================*/
+
+.vertical-heading h5 {
+    color: #f4c613;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: 9px;
+    display: inline-block;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: relative;
+    top: 60px;
+    left: -63px;
+}
+
+.vertical-heading h2 {
+    margin: 0 0 0 35px;
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 45px;
+}
+
+/*========================================
+                About 01
+=========================================*/
+
+#about-right p:first-child {
+    margin-bottom: 30px;
+}
+
+#about-bottom {
+    margin-top: 60px;
+}
+
+#about-bottom img {
+    /*center image*/
+    margin: 0 auto;
+}
